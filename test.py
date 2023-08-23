@@ -4,16 +4,16 @@ O programa deve pedir os parâmetros a, b e c da equação e deve calcular as ra
 Considere que as raízes são reais. Exemplo: a = 1, b = -6, c = 8 dá como raízes 4 e 2.
 """
 
-# a = int(input("a="))
-# b = int(input("b="))
-# c = int(input("c="))
+a = int(input("a="))
+b = int(input("b="))
+c = int(input("c="))
 
-# delta = ((b * b) - (4 * a * c)) ** (1/2)
-# result1 = (- b + delta) / (2 * a)
-# result2 = (- b - delta) / (2 * a)
+delta = ((b * b) - (4 * a * c)) ** (1/2)
+result1 = (- b + delta) / (2 * a)
+result2 = (- b - delta) / (2 * a)
 
-# print(result1)
-# print(result2)
+print(result1)
+print(result2)
 
 """
 Elabore um programa que leia uma variável inteira ano. 
